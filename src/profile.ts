@@ -35,14 +35,14 @@ export const profile = {
 
   /** One decision you're proud of, in a sentence. */
   decisionImProudOf:
-    "I'm currently working part-time at Exelon's as a Business Analyst.",
+    "I'm currently working part-time at Exelon as a Business Analyst.",
 
   /**
    * Your photo. Replace public/photo.svg with a real photo of you
    * (e.g. put photo.jpg in the public/ folder and change this to "/photo.jpg").
    * It must be a real image file: the grader fetches it and checks.
    */
-  photoPath: "/photo.svg",
+  photoPath: "/photo.jpg",
 
   /**
    * Who can see your roster card:
