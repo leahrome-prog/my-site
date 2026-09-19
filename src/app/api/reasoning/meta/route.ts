@@ -10,5 +10,6 @@ export async function GET() {
     ok: true,
     studentToken: process.env.SITE_TOKEN ?? "SITE_TOKEN-env-var-not-set",
     service: "reasoning",
+    specVersion: "1",
   });
 }
