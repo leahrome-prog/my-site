@@ -13,7 +13,7 @@
  * One word from: "regatta" | "dune" | "orchard" | "noir"
  * (Or invent your own: copy a palette below, change the colors, name it.)
  */
-export const paletteChoice = "regatta";
+export const paletteChoice = "colonnade";
 
 /** ── 2. Pick your font pairing ─────────────────────────────────────────
  * One word from: "editorial" | "geometric" | "classic"
@@ -21,7 +21,7 @@ export const paletteChoice = "regatta";
  *   geometric — modern grotesk headings (tech/startup feel)
  *   classic   — high-contrast serif headings (timeless feel)
  */
-export const fontChoice = "editorial";
+export const fontChoice = "classic";
 
 /** ── 3. (Optional) Override the accent ─────────────────────────────────
  * Set to any CSS color (e.g. "#c2410c" or "rebeccapurple") to replace the
@@ -52,6 +52,16 @@ export interface Palette {
 }
 
 export const PALETTES: Record<string, Palette> = {
+  /** Brick and warm mortar, taken from the colonnade photo. */
+  colonnade: {
+    paper: "#f6efe8",
+    surface: "#fffaf6",
+    ink: "#241816",
+    muted: "#6d564c",
+    line: "#e4d4c6",
+    accent: "#7c342c",
+    accentInk: "#fffaf6",
+  },
   /** Deep navy accent on warm paper — nautical, collegiate. */
   regatta: {
     paper: "#faf8f4",

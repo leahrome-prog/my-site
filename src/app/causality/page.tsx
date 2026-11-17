@@ -137,7 +137,9 @@ export default async function CausalityPage() {
         />
         {/* TODO(yours): one sentence connecting the picture to the verdict:
             which arrow (or missing arrow) makes it causal or not. */}
-        <p className="mt-3 max-w-prose text-muted">{arrowSentence}</p>
+        <p className="mt-3 max-w-prose text-muted">{arrowSentence}
+          
+        </p>
       </section>
     </main>
   );
