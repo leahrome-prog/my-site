@@ -13,7 +13,7 @@
  * One word from: "regatta" | "dune" | "orchard" | "noir"
  * (Or invent your own: copy a palette below, change the colors, name it.)
  */
-export const paletteChoice = "colonnade";
+export const paletteChoice = "grove";
 
 /** ── 2. Pick your font pairing ─────────────────────────────────────────
  * One word from: "editorial" | "geometric" | "classic"
@@ -52,6 +52,16 @@ export interface Palette {
 }
 
 export const PALETTES: Record<string, Palette> = {
+  /** Dark evergreen page with a fresh green accent. */
+  grove: {
+    paper: "#121a15",
+    surface: "#1b2620",
+    ink: "#f3f7f1",
+    muted: "#a9bba6",
+    line: "#2d3b32",
+    accent: "#7dce86",
+    accentInk: "#102116",
+  },
   /** Brick and warm mortar, taken from the colonnade photo. */
   colonnade: {
     paper: "#f6efe8",
